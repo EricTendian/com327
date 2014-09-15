@@ -1,8 +1,19 @@
 /* My CSS File */
+/*
+@todo:
+- add web fonts
+- use media queries
+- background image (parallax?), color
+- anything else to make more interesting
+*/
 
 html {
   background-color: black;
   color: white;
   font-family: Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%
+  -ms-text-size-adjust: 100%
+  text-size-adjust: 100%
 }
 
