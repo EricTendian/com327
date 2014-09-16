@@ -1,19 +1,96 @@
-/* My CSS File */
+/* Background and Ambitions CSS */
+/* Author: Eric Tendian */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+
+/* Clearfix CSS taken from http://css-tricks.com/snippets/css/clear-fix/, I claim no ownership of it. */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  }
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
 /*
 @todo:
-- add web fonts
 - use media queries
 - background image (parallax?), color
 - anything else to make more interesting
+https://www.flickr.com/photos/premshree/1527691549/
 */
 
 html {
-  background-color: black;
-  color: white;
-  font-family: Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
   -webkit-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%
-  -ms-text-size-adjust: 100%
-  text-size-adjust: 100%
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  padding: 10px;
+  color: #fff;
+  font-weight: 400;
+  background-image: url(chicago-bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
 }
 
+h1, h2, h3 {
+  margin: 0;
+}
+
+a, a:visited {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+a:hover, a:active {
+  color: #eee;
+  text-decoration: underline;
+}
+
+#header {
+  margin-bottom: 20px;
+  line-height: 2;
+  text-shadow: 2px 2px #000;
+}
+
+#main, #footer {
+  background-color: rgba(16,16,16,0.65);
+  padding: 10px;
+}
+#main {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+#footer {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.column {
+  width: 100%;
+  margin: 0;
+  float: left;
+}
+
+@media only screen and (min-width: 1024px) {
+  .column {
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+  }
+  .column:last-child {
+    margin-right: 0;
+  }
+}
