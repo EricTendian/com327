@@ -1,9 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+
 /* Background and Ambitions CSS */
 /* Author: Eric Tendian */
 
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
-
-/* Clearfix CSS taken from http://css-tricks.com/snippets/css/clear-fix/, I claim no ownership of it. */
+/* Clearfix CSS taken from http://css-tricks.com/snippets/css/clear-fix/ */
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -11,17 +11,9 @@
   content: " ";
   clear: both;
   height: 0;
-  }
+}
 * html .clearfix             { zoom: 1; } /* IE6 */
 *:first-child+html .clearfix { zoom: 1; } /* IE7 */
-
-/*
-@todo:
-- use media queries
-- background image (parallax?), color
-- anything else to make more interesting
-https://www.flickr.com/photos/premshree/1527691549/
-*/
 
 html {
   font-family: 'Lato', sans-serif;
@@ -32,7 +24,7 @@ html {
   padding: 10px;
   color: #fff;
   font-weight: 400;
-  background-image: url(chicago-bg.jpg);
+  background-image: url(chicago-bg.jpg); /* See photo attribution in HTML */
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: bottom;
