@@ -81,6 +81,7 @@ a, a:visited, a:focus {
 /* General Layout */
 #main {
     padding: 1em 1em 5em 1em;
+    margin-top: 1em;
 }
 #logo {
     margin-bottom: 1em;
