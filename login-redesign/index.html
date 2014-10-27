@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <title>Login | Hacker News</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <!--<link rel="stylesheet" href="formalize.css" />-->
+  <link rel="stylesheet" href="screen.css" />
+</head>
+<body>
+  <main id="main" class="col-3 center">
+    <section id="status-message">
+      <!-- no status message currently -->
+    </section>
+    <section id="logo">
+      <!-- logo-->
+      <h1><span class="action" alttext="Signup">Login</span> | <a href="https://news.ycombinator.com/"><strong>Hacker News</strong></a></h1>
+    </section>
+
+    <section id="login-content">
+      <form method="post" action="https://news.ycombinator.com/login" novalidate="" class="login">
+        <div class="error-message"></div>
+        <input tabindex="1" id="register" type="checkbox" name="creating" value="false">
+        <label for="register"><em>Create a new account?</em></label>
+        <label for="username">Username</label>
+        <input tabindex="2" id="username" type="text" name="acct" size="20" spellcheck="false" autocomplete="off" autocapitalize="off" autofocus class="col-1 clear">
+        <label for="password">Password</label>
+        <input tabindex="3" id="password" type="password" name="pw" size="20" autocomplete="off" autocapitalize="off" class="col-1 clear">
+        <div class="forgot-password">
+          <a href="https://news.ycombinator.com/forgot?id=">Forgot your password?</a>
+        </div>
+        <input tabindex="4" type="submit" class="button submit col-1" value="Sign In" alt-value="Sign Up">
+      </form>
+      <ul class="button-group">
+        <li class="signup col-2">
+          <!--<a href="signup.html" tabindex="4" class="button">Create Account</a>-->
+        </li>
+        <li class="back-to-hn col-1">
+          <a href="https://news.ycombinator.com/" tabindex="5" class="button">Return to HN</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer id="footer" class="col-3 center clear">
+    <p>&copy; 2014 Y Combinator, LLC.</p>
+  </footer>
+
+  <script src="jquery-2.1.1-min.js"></script>
+  <script src="jquery.formalize.min.js"></script>
+  <script src="login.js"></script>
+</body>
+</html>
