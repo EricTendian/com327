@@ -14,10 +14,12 @@ jQuery.noConflict();
             $('#logo .action').attr('alttext', $('#logo .action').text());
             $('#logo .action').text(newvalue);
             $('head > title').text($('#logo h1').text());
-            var newvalue = $('form .submit').attr('alt-value');
-            $('form .submit').attr('alt-value', $('form .submit').attr('value'));
-            $('form .submit').attr('value', newvalue);
         });
+        var name = 'status_message';
+        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+            results = regex.exec(location.search);
+        $('#status-message').text(results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " ")));
     });
 })(jQuery);
 

@@ -57,13 +57,16 @@ input[type="text"], input[type="password"] {
   display: block;
   clear: both;
 }
+.hidden {
+  display: none;
+}
 
 /* General Layout */
 #main {
   background-color: #f6f6ef;
   position: relative;
   padding: 1em 1em 5em 1em;
-  margin-top: 1em;
+  margin-top: 3em;
 }
 #status-message, #logo {
   background-color: #ff6600;
@@ -73,6 +76,13 @@ input[type="text"], input[type="password"] {
   top: 0;
   text-align: center;
   padding: 1em 0;
+}
+#status-message:not(:empty) {
+  top: -2em;
+  background-color: #000;
+  color: #0f0;
+  padding-top: 0.5em;
+  padding-bottom: 2em;
 }
 #logo {
   cursor: default;
@@ -90,7 +100,7 @@ input[type="text"], input[type="password"] {
   color: #ff6600;
 }
 #footer {
-  margin-top: 1em;
+  margin: 1em auto;
 }
 a, a:visited, a:focus {
   color: #000;
@@ -135,6 +145,12 @@ input[type="text"], input[type="password"] {
 }
 input[type="submit"] {
   cursor: pointer;
+}
+#register ~ .button.submit:after {
+  content: ' In';
+}
+#register:checked ~ .button.submit:after {
+  content: ' Up';
 }
 
 /* Buttons */
