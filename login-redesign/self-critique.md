@@ -1,4 +1,4 @@
-# Self-Critique <!--- 1-2p self-critique -->
+# Self-Critique
 ## Login Form Redesign
 ### Oct. 31, 2014
 
