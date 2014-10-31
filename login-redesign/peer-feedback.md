@@ -51,15 +51,14 @@ Overall, I'm pleased with both the design and technical details of the page. The
 
 ---
 
-**Name:** Neeraj Soparawala
+**Name:** Yishan Huang
 
 **URL(s):**
 
-* http://neerajsop.me/project3.github.io/
-* http://nsoparaw.github.io/project3.github.io/
-* https://github.com/nsoparaw/project3.github.io
+* http://yishanhuang.github.io/Project3/
+* https://github.com/YishanHuang/Project3
 
-**Redesign of:** T-Mobile.com
+**Redesign of:** Yelp.com
 
 **Comments:**
 
