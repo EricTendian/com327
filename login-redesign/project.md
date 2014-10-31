@@ -1,8 +1,8 @@
 ## Redesigned Login/Sign-up Form (**Due Oct 31**)
 
-      You will locate a crappy combination login/sign-up form somewhere on the web (don’t worry,
-      they’re not hard to find). You will then create a usable, accessible and mobile-friendly
-      redesign of the form.
+You will locate a crappy combination login/sign-up form somewhere on the web (don’t worry,
+they’re not hard to find). You will then create a usable, accessible and mobile-friendly
+redesign of the form.
 
 ### Goals
 
@@ -20,7 +20,7 @@
         project due date
 *   An email to the instructor containing:
 
-        *   The https:// link to your project’s GitHub repository containing an HTML file, your CSS,
+    *   The https:// link to your project’s GitHub repository containing an HTML file, your CSS,
             JavaScript and any media elements (email URL to instructor by due date)
     *   A 1-2 paragraph self-critique (email to instructor by due date)
 
