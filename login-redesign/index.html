@@ -17,12 +17,12 @@
 
     <section id="login-content">
       <form method="post" action="https://news.ycombinator.com/login" novalidate class="login">
-        <input tabindex="1" id="register" type="checkbox" name="creating" value="false">
+        <input id="register" tabindex="1" type="checkbox" name="creating" value="false">
         <label for="register"><em>Create a new account?</em></label>
         <label for="username">Username</label>
-        <input tabindex="2" id="username" type="text" name="acct" size="20" spellcheck="false" autocomplete="off" autocapitalize="off" autofocus class="col-1 clear">
+        <input id="username" class="col-1 clear" tabindex="2"  type="text" name="acct" size="20" spellcheck="false" autocomplete="off" autocapitalize="off" autofocus required aria-required="true">
         <label for="password">Password</label>
-        <input tabindex="3" id="password" type="password" name="pw" size="20" autocomplete="off" autocapitalize="off" class="col-1 clear">
+        <input id="password" class="col-1 clear" tabindex="3" type="password" name="pw" size="20" autocomplete="off" autocapitalize="off" required aria-required="true">
         <div class="forgot-password">
           <a href="https://news.ycombinator.com/forgot?id=">Forgot your password?</a>
         </div>
