@@ -11,7 +11,7 @@ jQuery.noConflict();
                 $('#logo #signuptext').hide();
             }
             var newvalue = $('#logo .action').attr('alttext');
-            $('#logo .action').attr('alttext', $('#logo .action').text());
+            $('#logo .action').attr('data-alttext', $('#logo .action').text());
             $('#logo .action').text(newvalue);
             $('head > title').text($('#logo h1').text());
         });
