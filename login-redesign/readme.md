@@ -1,3 +1,5 @@
+**This redesign of the Hacker News login/signup form is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).**
+
 ## Redesigned Login/Sign-up Form (**Due Oct 31**)
 
 You will locate a crappy combination login/sign-up form somewhere on the web (don’t worry,
